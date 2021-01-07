@@ -1,0 +1,36 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "Backend Analyst Candidate Testing",
+  "main": "api/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizRCNascimento/test-backend-nodejs.git"
+  },
+  "author": "LuizRCNascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizRCNascimento/test-backend-nodejs/issues"
+  },
+  "homepage": "https://github.com/LuizRCNascimento/test-backend-nodejs#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "core-js": "^3.8.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.10",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
